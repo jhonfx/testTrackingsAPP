@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juan.testtrackingsadform.PantallaCinco">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="18sp"
+        android:gravity="center"
+        android:text="Código de Seguridad"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="414dp" />
+</android.support.constraint.ConstraintLayout>
