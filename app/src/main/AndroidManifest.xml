@@ -48,12 +48,11 @@
 
         <activity
             android:name=".PantallaTres"
-            android:label="PantallaTres"/>
-
+            android:label="PantallaTres" />
         <activity
             android:name=".PantallaCuatro"
             android:label="PantallaCuatro" />
-
+        <activity android:name=".PantallaCinco"></activity>
     </application>
 
 </manifest>

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
         Log.i("TRACK", "Inicio");
         //AdformTrackingSdk.setAppName("AppSuraAfore");
-        AdformTrackingSdk.setAppName("AppSuraAfore_Android");
+        AdformTrackingSdk.setAppName("AppSuraAfore_ANDROID_V2");
         AdformTrackingSdk.startTracking(getApplicationContext(), 873271);
         Log.i("TRACK", "Fin de ejecucion inicial");
 
@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
 
         TrackPoint trackPoint = new TrackPoint(873271);
-        trackPoint.setSectionName("SURA_APP_Android_Pantalla_Inicio");
-        trackPoint.setAppName("AppSuraAfore_Android");
+        trackPoint.setSectionName("Inicio_APP|SURA_APP_Android_Inicio");
+        trackPoint.setAppName("AppSuraAfore_ANDROID_V2");
         AdformTrackingSdk.sendTrackPoint(trackPoint);
 
         //AppsFlyerLib.getInstance().startTracking(this.getApplication(), "rgRgssepBPq9NzwJxCNAt8");
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
         TrackPoint trackPoint = new TrackPoint(873271);
         trackPoint.setSectionName("Sura_App_Afore_Pantalla_1");
-        trackPoint.setAppName("AppSuraAfore");
+        trackPoint.setAppName("AppSuraAfore_ANDROID_V2");
 
         Order order = new Order();
         order.addSystemValue(17, "jhon@gmail.com");

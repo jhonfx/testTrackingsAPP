@@ -22,8 +22,8 @@ public class PantallaDos extends AppCompatActivity implements OnClickListener{
         setContentView(R.layout.activity_pantalla_dos);
 
         TrackPoint trackPoint = new TrackPoint(873271);
-        trackPoint.setSectionName("SURA_APP_Android_Pantalla_Datos_Iniciales");
-        trackPoint.setAppName("AppSuraAfore_Android");
+        trackPoint.setSectionName("Eventos_Generados|SURA_APP_Android_Ingreso_Datos");
+        trackPoint.setAppName("AppSuraAfore_ANDROID_V2");
 
         Order order = new Order();
         order.addSystemValue(19, "miguel@twinkey.cool");

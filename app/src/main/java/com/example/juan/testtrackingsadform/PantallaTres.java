@@ -21,8 +21,8 @@ public class PantallaTres extends Activity {
         setContentView(R.layout.activity_pantalla_tres);
 
         TrackPoint trackPoint = new TrackPoint(873271);
-        trackPoint.setSectionName("SURA_APP_Android_Pantalla_Ingresa_Curp");
-        trackPoint.setAppName("AppSuraAfore_Android");
+        trackPoint.setSectionName("Eventos_Generados|SURA_APP_Android_Pantalla_Ingreso_Curp");
+        trackPoint.setAppName("AppSuraAfore_ANDROID_V2");
 
         Order order = new Order();
         order.addSystemValue(23, "MIKE851023HMCRRN02");

@@ -21,8 +21,8 @@ public class PantallaCuatro extends Activity {
         setContentView(R.layout.activity_pantalla_cuatro);
 
         TrackPoint trackPoint = new TrackPoint(873271);
-        trackPoint.setSectionName("SURA_APP_Android_Pantalla_Envio_Codigo_Seguridad");
-        trackPoint.setAppName("AppSuraAfore_Android");
+        trackPoint.setSectionName("CURPS_Validos|SURA_APP_Android_Pantalla_Envio_Codigo_Seguridad");
+        trackPoint.setAppName("AppSuraAfore_ANDROID_V2");
         AdformTrackingSdk.sendTrackPoint(trackPoint);
 
         siguiente = (Button)findViewById(R.id.button7);
